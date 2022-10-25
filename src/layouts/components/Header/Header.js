@@ -114,7 +114,7 @@ function Header() {
                             <Button text leftIcon={<FontAwesomeIcon icon={faPlus} />}>
                                 Upload
                             </Button>
-                            <Tippy delay={(0, 200)} content="Message" placement="bottom">
+                            <Tippy delay={(0, 50)} content="Message" placement="bottom">
                                 <button className={cx('action-btn')}>
                                     <MessageIcon />
                                 </button>
